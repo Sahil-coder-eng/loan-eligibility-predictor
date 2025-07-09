@@ -1,37 +1,34 @@
 # 🏦 Loan Eligibility Predictor
 
-This project uses machine learning to predict whether a loan applicant is eligible for a loan based on financial and personal details.
+A smart machine learning app built using Streamlit that predicts if a person is eligible for a loan based on personal and financial information.
+
+## 🚀 Live Demo
+
+👉 [Click here to try the app](https://sahil-coder-eng-loan-eligibility-predictor-loan-app-75avcf.streamlit.app/)
+
+---
 
 ## 💡 Features
-- Built with Streamlit for instant predictions
-- Trained using Random Forest on Kaggle dataset
-- Real-time input fields with result animations
-- Shows input summary before prediction
+- Real-time loan eligibility prediction using a trained Random Forest model
+- Clean and responsive UI built with Streamlit
+- User input summary preview before prediction
+- Fun animations (balloons, snow) for user feedback
 
-## 📦 Tech Stack
+---
+
+## 🧠 Technologies Used
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
+- Joblib
 
-## 🔧 How to Run
+---
 
-1. Clone the repo  
-2. Install requirements  
-3. Run the app
+## ⚙️ How to Run Locally
+
+Clone the repo and run the app locally with:
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-
-## 🚀 Run Instructions
-1. Place `train.csv` in this folder
-2. Run:
-    ```
-    python loan_model_trainer.py
-    ```
-3. Start the app:
-    ```
-    streamlit run loan_app.py
-    ```
